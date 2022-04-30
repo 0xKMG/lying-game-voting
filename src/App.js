@@ -72,11 +72,13 @@ export default function App() {
   ))
 
   return (
-    <main>
-      <Name />
-      <div className="container">
-        {boxesElements}
-      </div>
-    </main>
+    <div className="hugeContainer">
+      <main>
+        <Name />
+        <div className="container">
+          {boxesElements}
+        </div>
+      </main>
+    </div>
   )
 }
