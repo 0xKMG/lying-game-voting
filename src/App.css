@@ -12,6 +12,7 @@ main {
   background-color: #F5F5F5;
   height: 500px;
   max-width: 500px;
+  min-width: 500px;
   border-radius: 5px;
   padding: 50px;
   display: flex;
