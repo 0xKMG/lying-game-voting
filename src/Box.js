@@ -6,7 +6,7 @@ export default function Box(props) {
     return (
         <div className="Box">
 
-            <h1 onClick={props.toggleBox}>{props.isTrue ? "✅ " : "❌ "}</h1>
+            <button onClick={props.toggleBox}>{props.isTrue ? "✅ " : "❌ "}</button>
             <p>{props.description}</p>
 
         </div>
