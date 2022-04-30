@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #0B2434;
+  padding: 200px;
+}
+
+main {
+  background-color: #F5F5F5;
+  height: 500px;
+  max-width: 500px;
+  min-width: 400px;
+  border-radius: 5px;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 100px);
+  /* 3 columns */
+  grid-template-rows: repeat(2, 100px);
+  /* 3 rows  */
+  grid-gap: 50px 30px;
+  /* 50 pixels of space added between rows and 30 pixels added between columns  */
+}
+
+.Names {
+  display: flex;
+  flex-direction: column;
+}
+
+.Names>* {
+  margin-bottom: 90px;
+  margin-right: 40px;
+}
+
+.Box>h1 {
+  cursor: pointer;
+}
